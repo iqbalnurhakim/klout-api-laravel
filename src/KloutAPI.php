@@ -77,11 +77,14 @@ class KloutAPI {
     // Return the result;
     $CurlResult = $this->GET($url,$params);
     $ResultString = json_decode($CurlResult);
-    // var_dump($$this->BaseUrl);
-    // Assume it only returns "ks" data:
-    $KloutID = $ResultString->id;
+    
+    if($ResultString){
+      // Assume it only returns "ks" data:
+      $KloutID = $ResultString->id;
 
-    return $KloutID; 
+      return $KloutID;       
+    }
+    return null;
   }
 
 
