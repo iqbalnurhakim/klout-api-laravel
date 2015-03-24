@@ -1,0 +1,14 @@
+{
+    "name": "IqbalHakim/klout",
+    "description": "Laravel 5 Implementation of [KloutAPIv2]",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Klout\\": "src/"
+        }
+    }
+}
