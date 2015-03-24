@@ -7,7 +7,7 @@ Laravel 5 Implementation of [KloutAPIv2](https://github.com/robertholf/KloutAPIv
 Via Composer
 
 ``` bash
-$ composer require IqbalHakim/klout
+$ composer require iqbal-hakim/klout
 ```
 
 Add the service provider to ```config/app.php``` in the `providers` array.
