@@ -42,4 +42,4 @@ Klout::KloutUserScore(<kloutId>);
 ```
 ## License
 
-The MIT License (MIT). Please see [License File](https://github.com/dnoegel/php-xdg-base-dir/blob/master/LICENSE) for more information.
+The MIT License (MIT). Please see [License File](https://github.com/iqbalnurhakim/klout-api-laravel/blob/master/LICENSE) for more information.
